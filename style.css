@@ -98,6 +98,27 @@ body{
     opacity: 0.55;
 }
 
+footer{
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    letter-spacing: 2px;
+    color: white;
+}
+
+footer a{
+    color: red;
+    cursor: pointer;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: orangered;
+}
+
 @media screen and (max-width: 1132px) {
     body{
         margin-top: 40px;
@@ -143,6 +164,11 @@ body{
     }
 }
 
+@media screen and (max-width: 555px) {
+    footer{
+        line-height: 1.8;
+    }
+}
 @media  all and (max-width: 535px) {
     body{
         max-width: none;
